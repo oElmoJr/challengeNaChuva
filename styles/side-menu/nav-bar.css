@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+.nav-bar,
+ul {
+  width: 220px;
+}
+
+.menu-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: "Quicksand";
+  text-decoration: none;
+  color: #725c5c;
+  border-bottom: 2px solid #e7e7e7;
+
+  padding-left: 24px;
+  height: 33px;
+  width: 220px;
+}
+
+.ativado {
+  background-image: linear-gradient(#ffb354, #ee7a3a);
+
+  width: 5px;
+  height: 33px;
+}
+
+.ativado a {
+  background-color: #fdf1eb;
+
+  margin-left: 5px;
+  width: 215px;
+}
+
+.menu-item a:hover {
+  background-color: #e7e7e76e;
+}

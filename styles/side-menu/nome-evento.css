@@ -1,0 +1,17 @@
+.nome-evento-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(#ffb354, #ee7a3a);
+
+  height: 68px;
+  width: 220px;
+}
+
+.nome-evento {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+}
