@@ -1,0 +1,15 @@
+.header-left {
+  color: #725c5c;
+}
+
+.header-top-title,
+.header-botton-title {
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.header-title {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
