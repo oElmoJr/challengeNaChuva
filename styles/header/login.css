@@ -1,0 +1,49 @@
+.login {
+  display: grid;
+
+  color: #333333;
+  text-align: right;
+  grid-template-areas:
+    "b a"
+    "c a";
+}
+
+.bemvinde {
+  grid-area: b;
+  font-family: "Quicksand";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.email {
+  grid-area: c;
+  font-family: "Quicksand";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15x;
+}
+
+.profile-pic {
+  grid-area: a;
+  border-radius: 50%;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.notification {
+  position: absolute;
+  right: 30px;
+  text-align: center;
+
+  background-color: #f85959;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  border-radius: 50%;
+
+  height: 12px;
+  width: 12px;
+}

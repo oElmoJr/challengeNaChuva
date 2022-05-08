@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #fdf1eb;
+
+  height: 68px;
+  width: 100%;
+  padding: 0 31px 0 36px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
