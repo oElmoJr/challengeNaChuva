@@ -1,0 +1,44 @@
+.box-contaier {
+margin-top: 30px;
+}
+
+.box {
+  border: 1px solid #ececec;
+}
+
+.box-title {
+  color: #4e4e4e;
+  background: #fdf1eb;
+  border-bottom: 1px solid #ececec;
+
+  height: 45px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+
+  padding: 9px 15px;
+}
+
+.box-text {
+  text-align: justify;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+
+  color: #5c5c5c;
+
+  padding: 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.link {
+font-weight: 700;
+color: #ed7839;
+}

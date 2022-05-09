@@ -1,0 +1,9 @@
+.main-container {
+  overflow: scroll;
+  /* height: 100; */
+  padding: 20px 43px;
+}
+
+.video-sec {
+  display: flex;
+}
