@@ -22,6 +22,12 @@
       rel="stylesheet"
     />
 
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/067f1ddc73.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- CSS -->
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/side-menu/nome-evento.css" />
@@ -31,6 +37,12 @@
     <link rel="stylesheet" href="styles/header/header-left.css" />
     <link rel="stylesheet" href="styles/header/botao-idiomas.css" />
     <link rel="stylesheet" href="styles/header/login.css" />
+    <link rel="stylesheet" href="styles/video-section/video-sec-left.css" />
+    <link rel="stylesheet" href="styles/video-section/main.css" />
+    <link rel="stylesheet" href="styles/video-section/box.css" />
+    <link rel="stylesheet" href="styles/video-section/video-sec-right.css" />
+    <link rel="stylesheet" href="styles/video-section/button.css" />
+  
   </head>
   <body>
     <section class="side-menu">
@@ -55,33 +67,93 @@
         </nav>
       </div>
     </section>
-    <header>
-      <div class="header-left">
-        <p class="header-top-title">
-          Anais do Simpósio Latino Americano de Ciências de Alimentos
-        </p>
-        <h2 class="header-title">
-          Anais do 13º Simpósio Latino Americano de Ciência de Alimentos
-        </h2>
-        <p class="header-botton-title">ISSN: 1234-5678</p>
-      </div>
-      <div class="header-right">
-        <div class="botao-idiomas">
-          <img class="globe" src="src/img/languageimage.svg" alt="" />
-          <select name="idiomas" id="idiomas">
-            <option value="pt-br">PT, BR</option>
-            <option value="en">EN</option>
-          </select>
-          <img class="arrow" src="src/img/dropdown.svg" alt="" />
+    <main>
+      <header>
+        <div class="header-left">
+          <p class="header-top-title">
+            Anais do Simpósio Latino Americano de Ciências de Alimentos
+          </p>
+          <h2 class="header-title">
+            Anais do 13º Simpósio Latino Americano de Ciência de Alimentos
+          </h2>
+          <p class="header-botton-title">ISSN: 1234-5678</p>
         </div>
-        <div class="login">
-          <p class="bemvinde">Bem vindo!</p>
-          <p class="email">alguem12@galoascience.com</p>
-          <img class="profile-pic" src="src/img/profileImage.png" alt="" />
-          <span class="notification">2</span>
+        <div class="header-right">
+          <div class="botao-idiomas">
+            <i class="globe fa-solid fa-globe"></i>
+            <select name="idiomas" id="idiomas">
+              <option value="pt-br">PT, BR</option>
+              <option value="en">EN</option>
+            </select>
+            <img class="arrow" src="src/img/dropdown.svg" alt="" />
+          </div>
+          <div class="login">
+            <p class="bemvinde">Bem vindo!</p>
+            <p class="email">alguem12@galoascience.com</p>
+            <img class="profile-pic" src="src/img/profileImage.png" alt="" />
+            <span class="notification">2</span>
+          </div>
         </div>
+      </header>
+      <div class="main-container">
+        <section class="video-sec">
+          <div class="video-sec-left">
+            <h1 class="titulo-trabalho">
+              Análise sensorial de preparações funcionais desenvolvidas para
+              escolares entre 09 e 15 anos, do município de Campinas/SP
+            </h1>
+            <img src="src/img/vídeopng.png" alt="video" class="video" />
+          </div>
+          <div class="video-sec-right">
+            <div class="buttons-container">
+              <button class="button">
+                <i class="fa-solid fa-download"></i> Download
+              </button>
+              <button class="button"><i class="fa-solid fa-star"></i></button>
+              <button class="button">
+                <svg
+                  width="19"
+                  height="19"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <image href="src/img/doi.svg" />
+                </svg>
+              </button>
+            </div>
+            <p class="citacao">COMO CITAR ESSE TRABALHO?</p>
+            <aside class="box detalhes">
+              <div class="box-title">
+                <p>Detalhes</p>
+              </div>
+              <div class="box-text">
+                  <p class="tipo">
+                    Tipo de Apresentação: <sapn class="bold">Pôster</sapn><br />
+                    Eixo temático: <sapn class="bold">Alimentação e saúde (AS)</sapn><br />
+                    Palavras-chaves: <sapn class="bold">Alimentos funcionais, alimentação escolar.</sapn> 
+                  </p><br />
+
+                  <sapn class="bold">Autores:</sapn><br />
+                  Galileo Galilei¹ <br />
+                  Berta Lange de Morretes² <br />
+                  Isaac Newton³ <br />
+                  Cesar Lattes¹ <br />
+                  Stephen Hawking⁴<br />
+                  <br />
+
+                  <p class="uni">
+                    ¹Universidade Estadual de Campinas <br />
+                    ²Universidade de São Paulo <br />
+                    ³Instituto Nacional de Pesquisas Espaciais<br />
+                    ⁴Universidade Federal do Rio de Janeiro<br />
+                  </p>             
+              </div>
+            </aside>
+
+          </div>
+        </section>
+
       </div>
-    </header>
-    <main></main>
+    </main>
   </body>
 </html>

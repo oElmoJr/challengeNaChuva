@@ -1,0 +1,39 @@
+.video-sec-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 242px;
+  margin-left: 26px;
+}
+
+.citacao {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+
+  color: #ed7839;
+
+  margin: 9px 0;
+}
+
+.video-sec-right aside {
+  height: 439px;
+}
+
+.detalhes .box-text .tipo {
+  font-family: "Quicksand";
+  font-weight: 400;
+  font-size: 11.5px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.detalhes .box-text .uni {
+  color: #ada0a0;
+
+  font-family: "Quicksand";
+  font-weight: 400;
+  font-size: 11.5px;
+  line-height: 16px;
+}
