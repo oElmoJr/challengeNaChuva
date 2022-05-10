@@ -1,5 +1,5 @@
 .video-sec-left {
-  width: 786px;
+  /* width: 786px; */
 }
 
 .titulo-trabalho {
@@ -13,6 +13,8 @@
 }
 
 .video-sec-left .video {
+  width: 100%;
+  max-width: 784px;
   margin-left: 2px;
   margin-top: 4px;
 }
