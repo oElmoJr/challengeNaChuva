@@ -17,17 +17,10 @@
     .header-title {
         font-size: 15px;
         line-height: 15px;
-
     }  
 }
 
-
-
 @media screen and (max-width: 890px) {      
-    .fa-bars {
-        display: unset;
-    }
-
     header {
         padding: 20px;
     }
@@ -41,6 +34,13 @@
         top: -2px;
     }
 }
+
+@media screen and (max-width: 760px) {
+    .fa-bars {
+        display: unset;
+    }
+}      
+
 
 @media screen and (max-width: 480px) {
     .header-top-title, .header-botton-title {
