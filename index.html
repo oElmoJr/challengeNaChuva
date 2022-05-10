@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="styles/side-menu/nome-evento.css" />
     <link rel="stylesheet" href="styles/side-menu/nav-bar.css" />
     <link rel="stylesheet" href="styles/side-menu/side-menu.css" />
+    <link rel="stylesheet" href="styles/side-menu/close-button.css">
     <link rel="stylesheet" href="styles/header/header.css" />
     <link rel="stylesheet" href="styles/header/header-left.css" />
     <link rel="stylesheet" href="styles/header/botao-idiomas.css" />
@@ -46,13 +47,16 @@
     <link rel="stylesheet" href="styles/discussoes/topico.css">
     <link rel="stylesheet" href="styles/footer/footer.css">
     <link rel="stylesheet" href="styles/responsive/sidebar.css">
+    <link rel="stylesheet" href="styles/responsive/header.css">
+    <link rel="stylesheet" href="styles/responsive/principal-section.css">
   </head>
   <body>
     <section class="side-menu">
       <div class="side-bar">
         <nav class="nav-bar">
-        <div class="nome-evento-container">
+        <div class="nome-evento-container" ">
           <p class="nome-evento">SLACA 2019</p>
+          <button onclick="openSidebar()"><i class="fa-solid fa-x"></i></button>
         </div>
         <a href="#">
           <img class="logo" src="src/img/dewey 4.png" alt="Logo 13 SLACA" />
@@ -72,6 +76,7 @@
     </section>
     <main>
       <header>
+        <i class="fa-solid fa-bars" onclick="openSidebar()"></i>
         <div class="header-left">
           <p class="header-top-title">
             Anais do Simpósio Latino Americano de Ciências de Alimentos
@@ -210,5 +215,7 @@
         <img src="src/img/imagem - footer.png" alt="">
       </footer>
     </main>
+
+    <script src="js/openSidebar.js"></script>
   </body>
 </html>

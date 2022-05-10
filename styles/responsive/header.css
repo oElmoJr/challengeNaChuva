@@ -1,0 +1,53 @@
+@media screen and (max-width: 1260px) {
+    .header-top-title, .header-botton-title {
+        font-size: 14px;
+    }
+
+    .header-title {
+        font-size: 18px;
+        line-height: 18px;
+    }  
+}
+
+@media screen and (max-width: 1040px) {
+    .header-top-title, .header-botton-title {
+        font-size: 10px;
+    }
+
+    .header-title {
+        font-size: 15px;
+        line-height: 15px;
+
+    }  
+}
+
+
+
+@media screen and (max-width: 890px) {      
+    .fa-bars {
+        display: unset;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .bemvinde, .email{
+        display: none;
+    }
+
+    .notification {
+        right: -39px;
+        top: -2px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header-top-title, .header-botton-title {
+        font-size: 9px;
+    }
+
+    .botao-idiomas {
+        display: none;
+    }
+}

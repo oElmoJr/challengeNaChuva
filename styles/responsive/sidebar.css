@@ -1,0 +1,24 @@
+  @media screen and (max-width: 760px) {
+      
+    .side-menu {
+      position: absolute;
+      background-color: #fff;
+      display: none;
+    }
+
+    .sidebar-open .side-menu {
+        display: unset;
+    }
+
+    .sidebar-open .nome-evento-container button {
+        display: unset;
+    }
+        
+    footer img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+  }
