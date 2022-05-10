@@ -1,0 +1,64 @@
+@media screen and (max-width: 1040px) {
+    .video-sec {
+        flex-direction: column;
+        
+    }
+
+    .video-sec-right {
+        margin-left: 0;
+        align-items: flex-start;
+    }
+    
+    .video-sec-right .citacao {
+        margin-left: 5px;
+    }
+
+    .detalhes {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .titulo-trabalho {
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    
+    .main-container {
+        padding: 10px;
+    } 
+
+
+    .texto-create-topico, .topico-icons .video-sec-left {
+        width: 100%;
+    }
+
+    .video-sec-left .video {
+        width: 100%;
+    }
+
+    .video-sec-right .citacao {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .titulo-trabalho {
+        font-size: 14px;
+        line-height: 16.5px;
+        width: 100%;
+        margin: 10px 5px 5px;
+    }
+    
+    .video-sec-right .citacao {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 15px;
+    }
+}

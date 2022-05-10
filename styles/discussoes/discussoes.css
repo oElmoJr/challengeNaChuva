@@ -15,7 +15,7 @@
     display: flex;
     margin: 27px auto 35px auto;
     justify-content: space-evenly;
-    width: 360px;
+    max-width: 360px;
 }
 
 .texto-create-topico {
@@ -27,7 +27,7 @@
     margin-right: auto;
     margin-bottom: 31px;
 
-    width: 626px;
+    max-width: 626px;
 }
 
 .discussoes hr {

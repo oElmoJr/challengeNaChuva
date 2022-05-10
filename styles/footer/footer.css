@@ -1,3 +1,7 @@
 footer {
     margin-left: 15px;
 }
+
+footer img {
+    width: 100%;
+}

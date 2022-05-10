@@ -13,10 +13,6 @@
     .sidebar-open .nome-evento-container button {
         display: unset;
     }
-        
-    footer img {
-        width: 300px;
-    }
 }
 
 @media screen and (max-width: 480px) {
