@@ -32,8 +32,9 @@
 }
 
 .notification {
-  position: absolute;
-  right: 30px;
+  position: relative;
+  right: -192px;
+  top: -34px;
   text-align: center;
 
   background-color: #f85959;

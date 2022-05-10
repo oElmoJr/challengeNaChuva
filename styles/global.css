@@ -9,4 +9,10 @@ body {
   flex-direction: row;
   height: 100vh;
   font-family: Roboto;
+  overflow: hidden;
+}
+
+main {
+  height: 100vh;
+  overflow: scroll;
 }
