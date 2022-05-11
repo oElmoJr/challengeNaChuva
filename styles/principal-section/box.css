@@ -42,3 +42,15 @@ margin-top: 30px;
 font-weight: 700;
 color: #ed7839;
 }
+
+.mais {
+  display: none;
+}
+
+.verMais-open .mais {
+  display: unset;
+}
+
+.verMais-open .link {
+  display: none;
+}
