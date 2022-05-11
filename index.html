@@ -30,26 +30,33 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/side-menu/nome-evento.css" />
-    <link rel="stylesheet" href="styles/side-menu/nav-bar.css" />
-    <link rel="stylesheet" href="styles/side-menu/side-menu.css" />
-    <link rel="stylesheet" href="styles/side-menu/close-button.css">
+
+    <link rel="stylesheet" href="styles/sidebar/nome-evento.css" />
+    <link rel="stylesheet" href="styles/sidebar/nav-bar.css" />
+    <link rel="stylesheet" href="styles/sidebar/side-menu.css" />
+    <link rel="stylesheet" href="styles/sidebar/close-button.css">
+    
     <link rel="stylesheet" href="styles/header/header.css" />
-    <link rel="stylesheet" href="styles/header/header-left.css" />
+    <link rel="stylesheet" href="styles/header/header-titles.css" />
     <link rel="stylesheet" href="styles/header/botao-idiomas.css" />
     <link rel="stylesheet" href="styles/header/login.css" />
-    <link rel="stylesheet" href="styles/principal-section/video-sec-left.css" />
+    
     <link rel="stylesheet" href="styles/principal-section/main.css" />
-    <link rel="stylesheet" href="styles/principal-section/box.css" />
+    <link rel="stylesheet" href="styles/principal-section/video-sec-left.css" />
     <link rel="stylesheet" href="styles/principal-section/video-sec-right.css" />
+    <link rel="stylesheet" href="styles/principal-section/box.css" />
     <link rel="stylesheet" href="styles/principal-section/button.css" />
+    
     <link rel="stylesheet" href="styles/discussoes/discussoes.css">
     <link rel="stylesheet" href="styles/discussoes/topico.css">
+    
     <link rel="stylesheet" href="styles/footer/footer.css">
+    
     <link rel="stylesheet" href="styles/responsive/sidebar.css">
     <link rel="stylesheet" href="styles/responsive/header.css">
     <link rel="stylesheet" href="styles/responsive/principal-section.css">
   </head>
+
   <body>
     <section class="side-menu">
       <div class="side-bar">
@@ -65,27 +72,24 @@
             <li class="menu-item desativado"><a href="#">Apresentação</a></li>
             <li class="menu-item desativado"><a href="#">Comitês</a></li>
             <li class="menu-item desativado"><a href="#">Autores</a></li>
-            <li class="menu-item desativado">
-              <a href="#">Eixos temáticos</a>
-            </li>
+            <li class="menu-item desativado"><a href="#">Eixos temáticos</a></li>
             <li class="menu-item ativado"><a href="#">Trabalhos</a></li>
             <li class="menu-item desativado"><a href="#">Contato</a></li>
           </ul>
         </nav>
       </div>
     </section>
+
     <main>
       <header>
         <i class="fa-solid fa-bars" onclick="openSidebar()"></i>
+        
         <div class="header-left">
-          <p class="header-top-title">
-            Anais do Simpósio Latino Americano de Ciências de Alimentos
-          </p>
-          <h2 class="header-title">
-            Anais do 13º Simpósio Latino Americano de Ciência de Alimentos
-          </h2>
+          <p class="header-top-title">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
+          <h2 class="header-title">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h2>
           <p class="header-botton-title">ISSN: 1234-5678</p>
         </div>
+
         <div class="header-right">
           <div class="botao-idiomas">
             <i class="globe fa-solid fa-globe"></i>
@@ -95,6 +99,7 @@
             </select>
             <img class="arrow" src="src/img/dropdown.svg" alt="" />
           </div>
+          
           <div class="login">
             <p class="bemvinde">Bem vindo!</p>
             <p class="email">alguem12@galoascience.com</p>
@@ -103,6 +108,7 @@
           </div>
         </div>
       </header>
+
       <div class="main-container">
         <section class="video-sec">
           <div class="video-sec-left">
@@ -112,45 +118,48 @@
             </h1>
             <img src="src/img/vídeopng.png" alt="video" class="video" />
           </div>
+          
           <div class="video-sec-right">
-            
-              <div class="buttons-container">
-                <button class="button"><i class="fa-solid fa-download"></i> Download</button>
-                <button class="button"><i class="fa-solid fa-star"></i></button>
-                <button class="button"> <svg width="19" height="19" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image href="src/img/doi.svg" /></svg> </button>
-              </div>
-              <p class="citacao">COMO CITAR ESSE TRABALHO?</p>
+            <div class="buttons-container">
+              <button class="button"><i class="fa-solid fa-download"></i> Download</button>
+              <button class="button"><i class="fa-solid fa-star"></i></button>
+              <button class="button"> <svg width="19" height="19" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image href="src/img/doi.svg" /></svg> </button>
+            </div>
+              
+            <p class="citacao">COMO CITAR ESSE TRABALHO?</p>
 
-            <aside class="box detalhes">
-              <div class="box-title">
-                <p>Detalhes</p>
-              </div>
-              <div class="box-text">
-                  <p class="tipo">
-                    Tipo de Apresentação: <span class="bold">Pôster</span><br />
-                    Eixo temático: <span class="bold">Alimentação e saúde (AS)</span><br />
-                    Palavras-chaves:<span class="bold">Alimentos funcionais, alimentação escolar.</span>
-                  </p><br />
+          <aside class="box detalhes">
+            <div class="box-title">
+              <p>Detalhes</p>
+            </div>
 
-                  <span class="bold">Autores:</span><br />
-                  Galileo Galilei¹ <br />
-                  Berta Lange de Morretes² <br />
-                  Isaac Newton³ <br />
-                  Cesar Lattes¹ <br />
-                  Stephen Hawking⁴<br />
-                  <br />
+            <div class="box-text">
+              <p class="tipo">
+                Tipo de Apresentação: <span class="bold">Pôster</span><br />
+                Eixo temático: <span class="bold">Alimentação e saúde (AS)</span><br />
+                Palavras-chaves:<span class="bold">Alimentos funcionais, alimentação escolar.</span>
+              </p><br />
 
-                  <p class="uni">
-                    ¹Universidade Estadual de Campinas <br />
-                    ²Universidade de São Paulo <br />
-                    ³Instituto Nacional de Pesquisas Espaciais<br />
-                    ⁴Universidade Federal do Rio de Janeiro<br />
-                  </p>             
-              </div>
-            </aside>
+              <span class="bold">Autores:</span><br />
+              Galileo Galilei¹ <br />
+              Berta Lange de Morretes² <br />
+              Isaac Newton³ <br />
+              Cesar Lattes¹ <br />
+              Stephen Hawking⁴<br />
+                <br />
+
+              <p class="uni">
+                ¹Universidade Estadual de Campinas <br />
+                ²Universidade de São Paulo <br />
+                ³Instituto Nacional de Pesquisas Espaciais<br />
+                ⁴Universidade Federal do Rio de Janeiro<br />
+              </p>             
+            </div>
+          </aside>
 
           </div>
         </section>
+
         <section class="box-contaier resumo">
           <div class="box">
             <div class="box-title"><p>Resumo</p></div>
@@ -163,6 +172,7 @@
         <section class="box-contaier discussoes">
           <div class="box">
             <div class="box-title"><p>Discussões</p></div>
+            
             <div class="box-text">
               <p class="title-create-topico">Compartilhe suas ideias ou dúvidas com os autores!</p>
               <div class="topico-icons">
@@ -171,8 +181,10 @@
                 <img src="src/img/icone3.png" alt="">
               </div>
               <p class="texto-create-topico">Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
+              
               <hr>
               <button class="button" ><i class="fa-solid fa-plus"></i> criar tópico</button>
+              
               <div class="topico">
                 <div class="card-header">
                   <p class="assunto">Assunto da pergunta aparece aqui</p>
@@ -186,6 +198,7 @@
                   <p class="resposta">1 resposta</p>
                 </div>
               </div>
+              
               <div class="topico">
                 <div class="card-header">
                   <p class="assunto">Assunto da pergunta aparece aqui</p>
@@ -199,14 +212,15 @@
                   <p class="resposta">1 resposta</p>
                 </div>
               </div>
+            </div>
           </div>
         </section>
       </div>
+      
       <footer>
         <img src="src/img/imagem - footer.png" alt="">
       </footer>
     </main>
-
     <script src="js/openSidebar.js"></script>
   </body>
 </html>
