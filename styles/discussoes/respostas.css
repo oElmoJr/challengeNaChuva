@@ -1,0 +1,34 @@
+.autor-coautor {
+  background-color: #f8f8f8;
+}
+
+.respostas {
+  display: none;
+  padding: 18px 0;
+  border-top: 1px solid #e7e7e7;
+}
+
+.respostas-open .respostas {
+  display: block;
+}
+
+.card-respostas-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cargo {
+  display: inherit;
+  margin-right: 24px;
+}
+
+.cargo p {
+  margin-right: 33px;
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #ed7839;
+}
