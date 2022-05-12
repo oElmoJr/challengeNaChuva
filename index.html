@@ -49,6 +49,8 @@
     
     <link rel="stylesheet" href="styles/discussoes/discussoes.css">
     <link rel="stylesheet" href="styles/discussoes/topico.css">
+    <link rel="stylesheet" href="styles/discussoes/create-topic.css">
+    <link rel="stylesheet" href="styles/discussoes/send-topic.css">
     
     <link rel="stylesheet" href="styles/footer/footer.css">
     
@@ -181,17 +183,59 @@
           <div class="box">
             <div class="box-title"><p>Discussões</p></div>
             
+            
             <div class="box-text">
-              <p class="title-create-topico">Compartilhe suas ideias ou dúvidas com os autores!</p>
-              <div class="topico-icons">
-                <img src="src/img/icone1.png" alt="">
-                <img src="src/img/icone2.png" alt="">
-                <img src="src/img/icone3.png" alt="">
+              <div class="create-topic">
+                <p class="title-create-topico">Compartilhe suas ideias ou dúvidas com os autores!</p>
+                <div class="topico-icons">
+                  <img src="src/img/icone1.png" alt="">
+                  <img src="src/img/icone2.png" alt="">
+                  <img src="src/img/icone3.png" alt="">
+                </div>
+                <p class="texto-create-topico">Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
+                
+                <hr>
+                <button class="button" onclick="createTopic()" ><i class="fa-solid fa-plus"></i> criar tópico</button>
               </div>
-              <p class="texto-create-topico">Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
-              
-              <hr>
-              <button class="button" ><i class="fa-solid fa-plus"></i> criar tópico</button>
+
+              <div class="openCreateTopic">
+                <p class="texto-create-topico">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+                <div class="form" action="">
+                  <label class="assunto" for="assunto">Assunto</label>
+                  <input placeholder="Defina um tópico sucinto para notificar os autores..." name="assunto" type="text">
+                  
+                  <label class="assunto" for="conteúdo">Conteúdo</label>
+                  <div class="textarea">
+                    <input name="conteúdo" type="text"></input>
+                    <div class="textArea-actions">
+                      <div class="text-shape">
+                        <button><svg width="15" height="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image href="src/img/B-Shape.svg" /></svg></button>
+                        <button><svg width="15" height="10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><image href="src/img/Shape.svg" /></svg></button>
+                      </div>
+                      <button class="button" onclick="sendTopic()">Enviar</button>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+              </div>
+
+              <div class="sended-topic">
+                <p class="title-create-topico">Seu tópico foi enviado com sucesso! :D</p>
+                <p class="texto-create-topico">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+
+                <a href="">Descubra outros trabalhos!</a>
+
+                <hr>
+                <button class="button" onclick="createNewTopic()" >criar novo tópico</button>
+
+                <div class="feedback">
+                  <div class="feedback-info">
+                    <img src="src/img/duble-check.png" alt="">
+                    <p>Aguardando feedback dos autores</p>
+                    <a href="">Editar tópico</a>
+                  </div>
+                </div>
+              </div>
               
               <div class="topico">
                 <div class="card-header">
