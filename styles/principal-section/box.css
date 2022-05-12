@@ -1,5 +1,5 @@
 .box-contaier {
-margin-top: 30px;
+  margin-top: 30px;
 }
 
 .box {
@@ -22,7 +22,7 @@ margin-top: 30px;
 
 .box-text {
   text-align: justify;
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -39,8 +39,9 @@ margin-top: 30px;
 }
 
 .link {
-font-weight: 700;
-color: #ed7839;
+  font-weight: 700;
+  color: #ed7839;
+  cursor: pointer;
 }
 
 .mais {

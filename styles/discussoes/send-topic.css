@@ -1,0 +1,66 @@
+.sended-topic,
+.sendTopic .create-topic,
+.feedback {
+  display: none;
+}
+
+.sendTopic .sended-topic,
+.sendTopic .feedback {
+  display: unset;
+}
+
+.sended-topic hr {
+  margin-top: 65px;
+}
+
+.sended-topic a {
+  color: #ed7839;
+}
+
+.sended-topic .texto-create-topico {
+  max-width: 805px;
+  margin-top: 18px;
+  margin-bottom: 20px;
+}
+
+.sended-topic button {
+  width: 235px;
+}
+
+.feedback {
+  height: 148px;
+}
+
+.feedback-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(../../src/img/tópico-aguardadando-validação.png);
+  background-repeat: no-repeat;
+  background-size: 1050px;
+  background-position: center;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+
+  min-height: 148px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.feedback-info img {
+  width: 23px;
+  height: 23px;
+}
+
+.feedback-info p {
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #707070;
+
+  margin: 8px 0 8px 0;
+}
